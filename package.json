@@ -1,0 +1,21 @@
+{
+  "name": "@umineko987/zcode-image-search-mcp",
+  "version": "0.1.0",
+  "files": ["src/", "README.md"],
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "zcode-image-search-mcp": "./src/main.mjs"
+  },
+  "scripts": {
+    "start": "node src/main.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "open": "10.2.0",
+    "undici": "6.29.0"
+  }
+}
