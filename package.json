@@ -1,6 +1,7 @@
 {
   "name": "@umineko987/zcode-image-search-mcp",
   "version": "0.1.0",
+  "license": "MIT",
   "files": ["src/", "README.md"],
   "type": "module",
   "engines": {
